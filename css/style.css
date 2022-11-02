@@ -9,13 +9,20 @@
 body {
     font-family: sans-serif;
 }
-
-/* Utils */
+.section-main {
+    min-height: 350px;
+    align-items: center;
+    padding: 40px 0;
+}
 .container {
     width: 60%;
     margin: 0 auto;
 
 }
+/* Utils */
+
+/* Header */
+
 .flex {
     display: flex;
 }
@@ -42,12 +49,31 @@ body {
     min-height: 30px;
     padding: 5px;    
 }    
+.link {
+    justify-content: center;
+}
 .a-link {
     text-decoration: none;
     padding: 0 5px;
     color: black;
-    justify-content: center;
+    
 }
 .login {
     justify-content: flex-end;
+}
+
+/* Main */
+
+/* Section Blu */
+.section-blu {
+    background-color: #00008B;
+    min-height: 300px;  
+    padding: 40px 0;  
+}
+.rect-section-blu {
+    background-color: #EE82EE;
+    min-height: 250px;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px dashed;
 }
