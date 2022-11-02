@@ -1,13 +1,53 @@
 /* Resest */
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
 }
 
 /* Generics */
 body {
-   font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 /* Utils */
+.container {
+    width: 60%;
+    margin: 0 auto;
+
+}
+.flex {
+    display: flex;
+}
+
+.home {
+    background-color: #ADD8E6;
+    min-height: 50px; 
+    padding: 10px;  
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.logo,
+.link,
+.login {
+    background-color: #DAA520;
+    border: 1px dashed;
+    min-height: 30px;
+    padding: 5px;    
+}    
+.a-link {
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+    justify-content: center;
+}
+.login {
+    justify-content: flex-end;
+}
